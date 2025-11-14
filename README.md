@@ -26,21 +26,20 @@ Como objetivo, se van a poner en práctica los conceptos estudiados acerca del s
 
 Este va a ser el diseño que se va a implementar en MongoDB el cual posee las colecciones, los documentos y los campos:
 
-{
-  "_id": {
-    "$oid": "69150764f267ef49570b9568"
-  },
-  "MUNICIPIO": "Riohacha",
-  "fecha_reporte": "2025/10/28",
-  "fuente_agua": "acometida municipal",
-  "estado_fuente": "Operativa",
-  "calidad_agua": "potable",
-  "frecuencia_acceso": "Cada 4 días",
-  "cantidad_promedio_litros": 500,
-  "observaciones": "No alcanzo el agua",
-  "reportado_por": "Consejal",
-  "barrio": "7 de agosto"
-}
+  - `_id` → Identificador numérico.  
+  - `MUNICIPIO` → Localidad de donde se hace el estudio.  
+  - `fecha_reporte` → Fecha de donde se toman los datos.  
+  - `fuente_agua` → Lugar donde recolectan el agua.
+  - `estado_fuente` → Disponibilidad.
+  - `calidad_agua` → Si es apta para el consumo.
+  - `frecuencia _accseo` → Cada cuantos dias recolectan agua.
+  - `cantidad_promedio` → cuantos litros logran recolectar.
+  - `obsevaciones` → anotaciones importantes.
+  - `reportado_por` → persona a cargo.
+  - `barrio` → zona donde se recibe el agua.
+  - 
+ Carga de Datos
+Se insertaron 100 documentos JSON con lect
 
 
 

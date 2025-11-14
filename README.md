@@ -43,23 +43,22 @@ Fase 2: MongoDB, squema propuesto:
   - `barrio` → zona donde se recibe el agua.
     
  Carga de Base de Datos con los 100 documentos:
-[uni_ped.comf 2.json](https://github.com/user-attachments/files/23549535/uni_ped.comf.2.json)
-[{
-  "_id": {
-    "$oid": "69150b77f267ef49570b9575"
-  },
-  "fecha_reporte": "2025/10/28",
-  "fuente_agua": "acometida municipal",
-  "estado_fuente": "Operativa",
-  "calidad_agua": "No apta para consumo",
-  "frecuencia_acceso": "Cada 15 días",
-  "cantidad_promedio_litros": 50,
-  "observaciones": "No llega agua",
-  "reportado_por": "Consejal",
-  "barrio": "El carmen",
-  "Municipio": "Albania"
-}]
 
+[{
+ <br>"_id": {
+    <br>"$oid": "69150b77f267ef49570b9575"
+  },
+  <br>"fecha_reporte": "2025/10/28",
+  <br>"fuente_agua": "acometida municipal",
+  <br>"estado_fuente": "Operativa",
+  <br>"calidad_agua": "No apta para consumo",
+  <br>"frecuencia_acceso": "Cada 15 días",
+  <br>"cantidad_promedio_litros": 50,
+  <br>"observaciones": "No llega agua",
+  <br>"reportado_por": "Consejal",
+  <br>"barrio": "El carmen",
+  <br>"Municipio": "Albania"
+<br>}]
 
 
 

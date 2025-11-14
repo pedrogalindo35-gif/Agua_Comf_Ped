@@ -13,3 +13,36 @@
   "barrio": "El carmen",
   "Municipio": "Albania"
 }]
+
+
+[
+  {
+    $match:
+      // en eta parte del codigo se
+      //envia una instruccion para que me muestre
+      //todo los datos referentes a Riohacha
+      {
+        Municipio: "Riohacha"
+      }
+    //Hemos realizado varios filtros para
+    //poder analizar de manera más detallada
+    //los datos recolectados acerca de la
+    //recolección de agua para consumo.
+    //se ha evidenciado que el municipio de albania
+    //es uno de los mas afectados por lo
+    //que necsita mayor prioridad para la
+    //entrega de agua
+  },
+  {
+    $group:
+      //Esta instruccion se envía para
+      //sacar el promedio de litros de
+      //agua recolectada
+      {
+        _id: "$cantidad_promedio_litros",
+        promedioAguaRecolectada: {
+          $avg: "$cantidad_promedio_litros"
+        }
+      }
+  }
+]

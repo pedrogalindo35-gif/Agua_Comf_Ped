@@ -1,0 +1,315 @@
+[{
+  "_id": {
+    "$oid": "69150764f267ef49570b9568"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bbcf267ef49570b95ca"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bbff267ef49570b95cb"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bc2f267ef49570b95cc"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bc4f267ef49570b95cd"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bc6f267ef49570b95ce"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bc8f267ef49570b95cf"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bcbf267ef49570b95d0"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151bcdf267ef49570b95d1"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151cc6f267ef49570b95f0"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/05",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "JAC",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151cccf267ef49570b95f1"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151ccef267ef49570b95f2"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151cd9f267ef49570b95f3"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151ce5f267ef49570b95f4"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/05",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151ce8f267ef49570b95f5"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151cf1f267ef49570b95f6"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/04",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69151d04f267ef49570b95f7"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/09",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "ENtre rios"
+},
+{
+  "_id": {
+    "$oid": "69151d1af267ef49570b95f8"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/07",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "Los olivos"
+},
+{
+  "_id": {
+    "$oid": "69151d2df267ef49570b95f9"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/12",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "La Lucha"
+},
+{
+  "_id": {
+    "$oid": "69151d31f267ef49570b95fa"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+},
+{
+  "_id": {
+    "$oid": "69154f74f267ef49570b9602"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/11/12",
+  "fuente_agua": "pozo comunitario",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "No apta para consumo",
+  "frecuencia_acceso": "Cada 2 días",
+  "cantidad_promedio_litros": 300,
+  "observaciones": "Agua con mal olor",
+  "reportado_por": "Líder comunitario",
+  "barrio": "Villa Fátima"
+}]

@@ -1334,13 +1334,80 @@ Fase 2: MongoDB, squema propuesto:
   "barrio": "Villa Fátima"
 }]ding uni_ped.comf 2.json…]()
 
-
+////******////
+[
+  {
+    $group:
+      //Esta instruccion es para sumar
+      //los litros de agua recolectado en
+      //todos los municipios.
+      //Lo primero que hacemos es crear
+      //una variable (total_litros) para pedir
+      //los litros de agua recolectados
+      //por cada municipio
+      {
+        _id: "$Municipio",
+        total_litros: {
+          $sum: "$cantidad_promedio_litros"
+        }
+      }
+  },
+  {
+    $sort:
+      //Una vez obtenidos los datos,
+      //muestra el total de los litros
+      //de agua se recolectada se ordenan
+      //de mayor a menor.
+      {
+        total_litros: -1
+      }
+  },
+  {
+    $limit:
+      //Por ultimo escogemos stage limit
+      //para que nos muestre el total de la suma
+      1
+  }
+]
 [uni_ped.comf 2_suma.json](https://github.com/user-attachments/files/23551239/uni_ped.comf.2_suma.json)
+
 [{
   "_id": null,
   "total_litros": 10400
 }]
-
+///*****////
+[
+  {
+    $match:
+      // en esta parte del codigo se
+      //envia una instruccion para que me muestre
+      //todos los datos referentes a Riohacha
+      {
+        Municipio: "Riohacha"
+      }
+    //Hemos realizado varios filtros para
+    //poder analizar de manera más detallada
+    //los datos recolectados acerca de la
+    //recolección de agua para consumo.
+    //se ha evidenciado que el municipio de albania
+    //es uno de los mas afectados por lo
+    //que necsita mayor prioridad para la
+    //entrega de agua
+  },
+  {
+    $group:
+      //una vez obtenido los datos de
+      //Riohacha, se envía para
+      //sacar el promedio de litros de
+      //agua recolectado por barrio
+      {
+        _id: "$barrio",
+        promedioAguaRecolectada: {
+          $avg: "$cantidad_promedio_litros"
+        }
+      }
+  }
+]
 [uni_ped.comf 2_prom.json](https://github.com/user-attachments/files/23551244/uni_ped.comf.2_prom.json)
 [{
   "_id": "Villa fatima",
@@ -1363,6 +1430,35 @@ Fase 2: MongoDB, squema propuesto:
   "promedioAguaRecolectada": 500
 }]
 
+//////*******//////
+[
+  {
+    $match:
+      //Esta instruccion es para ver
+      //la frecuencia con que se recolecta
+      //el agua cada 7 días.
+      //primero llamamos la variable
+      //frecuencia_acceso para que
+      //nos muestre los datos
+      {
+        frecuencia_acceso: "Cada 7 días"
+      }
+  },
+  {
+    $group:
+      //Una vez obtenidos los datos,
+      //llamamos a la función contar
+      //para que nos indique con que
+      //frecuencia recolectan el agua
+      //en cada municipio
+      {
+        _id: "$Municipio",
+        count: {
+          $sum: 1
+        }
+      }
+  }
+]
 [uni_ped.comf 2_contar.json](https://github.com/user-attachments/files/23551246/uni_ped.comf.2_contar.json)
 [{
   "_id": null,

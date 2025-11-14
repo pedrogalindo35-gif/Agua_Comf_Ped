@@ -20,7 +20,7 @@
     $match:
       // en eta parte del codigo se
       //envia una instruccion para que me muestre
-      //todo los datos referentes a Riohacha
+      //todo los datos referentes al municipio de Riohacha
       {
         Municipio: "Riohacha"
       }
@@ -42,6 +42,55 @@
         _id: "$cantidad_promedio_litros",
         promedioAguaRecolectada: {
           $avg: "$cantidad_promedio_litros"
+        }
+      }
+  }
+]
+
+[
+  {
+    $group:
+      //Esta instruccion es para sumar
+      //los litros de agua recolectado en
+      //todos los municipios
+      {
+        _id: "$Municipio",
+        total_litros: {
+          $sum: "$cantidad_promedio_litros"
+        }
+      }
+  },
+  {
+    $sort:
+      //Se muestra el total de los
+      //litros de agua
+      {
+        total_litros: -1
+      }
+  },
+  {
+    $limit: 1
+  }
+]
+
+[
+  {
+    $match:
+      //Esta instruccion es para ver
+      //la frecuencia con que se recolecta
+      //el agua cada 7 días
+      {
+        frecuencia_acceso: "Cada 7 días"
+      }
+  },
+  {
+    $group:
+      //en esta instruccion se cuenta
+      //la recoleccion por municipio
+      {
+        _id: "$Municipio",
+        count: {
+          $sum: 1
         }
       }
   }

@@ -24,7 +24,11 @@ Como objetivo, se van a poner en práctica los conceptos estudiados acerca del s
 
 **CONCLUSIÓN** <br>teniendo en cuenta el cuadro comparativo, se ha escogido trabajar con MongoDB porque ofrece la flexibilidad y escalabilidad suficientes para gestionar datos semiestructurados. Teniendo en cuenta la referencia de Miranda et al. (2023) y Sarasa (2016), resulta la opción más adecuada para implementar la base de datos de mi proyecto. 
 
-Este va a ser el diseño que se va a implementar en MongoDB el cual posee las colecciones, los documentos y los campos:
+Fase 2: MongoDB, squema propuesto:
+<br>Este va a ser el diseño que se va a implementar en MongoDB el cual posee las colecciones, los documentos y los campos:
+
+- Base de datos: `uni_ped` 
+- Colección principal: `comf2`
 
   - `_id` → Identificador numérico.  
   - `MUNICIPIO` → Localidad de donde se hace el estudio.  
@@ -37,9 +41,8 @@ Este va a ser el diseño que se va a implementar en MongoDB el cual posee las co
   - `obsevaciones` → anotaciones importantes.
   - `reportado_por` → persona a cargo.
   - `barrio` → zona donde se recibe el agua.
-  - 
- Carga de Datos
-Se insertaron 100 documentos JSON con lect
+    
+ Carga de Base de Datos con los 100 documentos:
 
 
 

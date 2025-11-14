@@ -43,7 +43,9 @@ Fase 2: MongoDB, squema propuesto:
   - `barrio` → zona donde se recibe el agua.
     
  Carga de Base de Datos con los 100 documentos:
-
+<details>
+  <summary>Ver código JSON de entregas de agua</summary>
+  
 ```json
 [uni_ped.comf 2.json](https://github.com/user-attachments/files/23551591/uni_ped.comf.2.json)
 [Uploa[{

@@ -57,6 +57,8 @@ Fase 2: MongoDB, squema propuesto:
   <br>"observaciones": "No llega agua",
   <br>"reportado_por": "Consejal",
   <br>"barrio": "El carmen",
+
+  
   <br>"Municipio": "Albania"
 <br>}]
 

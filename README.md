@@ -44,7 +44,8 @@ Fase 2: MongoDB, squema propuesto:
     
  Carga de Base de Datos con los 100 documentos:
 
-[Uploading uni_ped.comf 2.json…]()
+
+
 
 
 

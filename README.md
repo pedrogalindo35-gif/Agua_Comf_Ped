@@ -1,4 +1,4 @@
-[uni_ped.comf 2.json](https://github.com/user-attachments/files/23551434/uni_ped.comf.2.json)**Tarea 4** – Almacenamiento y Consultas de Datos en Big Data (MongoDB)
+**Tarea 4** – Almacenamiento y Consultas de Datos en Big Data (MongoDB)
 <br>**Autor:** Pedro Luis Galindo
 <br>**Curso:** Big Data  
 **Grupo:** 202016911_10  
@@ -45,7 +45,8 @@ Fase 2: MongoDB, squema propuesto:
  Carga de Base de Datos con los 100 documentos:
 
 ```json
-[Upl[{
+[uni_ped.comf 2.json](https://github.com/user-attachments/files/23551591/uni_ped.comf.2.json)
+[Uploa[{
   "_id": {
     "$oid": "69150764f267ef49570b9568"
   },
@@ -1331,7 +1332,7 @@ Fase 2: MongoDB, squema propuesto:
   "observaciones": "Agua con mal olor",
   "reportado_por": "Líder comunitario",
   "barrio": "Villa Fátima"
-}]oading uni_ped.comf 2.json…]()
+}]ding uni_ped.comf 2.json…]()
 
 
 [uni_ped.comf 2_suma.json](https://github.com/user-attachments/files/23551239/uni_ped.comf.2_suma.json)

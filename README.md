@@ -6,7 +6,7 @@
 **Universidad Nacional Abierta y a Distancia – UNAD** 
 <br>**Fecha:** noviembre 2025 
 
-**INTRODUCCIÓN**<br>En este ejercicio vamos a desarrollar una base de datos donde haremos consultas y filtraremos información de los datos obtenidos en la recolección de agua de los barrios en diferentes municipios de la Guajira. Utilizaremos MongoDB Compass como herramienta para crear, cargar y analizar una base de datos denominada `com_agua`, con una colección llamada `beneficiarios`.  
+**INTRODUCCIÓN**<br>En este ejercicio vamos a desarrollar una base de datos donde haremos consultas y filtraremos información de los datos obtenidos en la recolección de agua de los barrios en diferentes municipios de la Guajira. Utilizaremos MongoDB Compass como herramienta para crear, cargar y analizar una base de datos denominada `uni_ped`, con una colección llamada `comf2`.  
 
 Para el caso de uso, he tomado como referencia la falta de agua en La Guajira, ya que en este departamento, muchas personas no tienen acceso al preciado líquido.
 
@@ -36,14 +36,15 @@ Fase 2: MongoDB, squema propuesto:
   - `fuente_agua` → Lugar donde recolectan el agua.
   - `estado_fuente` → Disponibilidad.
   - `calidad_agua` → Si es apta para el consumo.
-  - `frecuencia _accseo` → Cada cuantos dias recolectan agua.
-  - `cantidad_promedio` → cuantos litros logran recolectar.
-  - `obsevaciones` → anotaciones importantes.
+  - `frecuencia _accseo` → Cada cuántos días recolectan agua.
+  - `cantidad_promedio` → cuántos litros logran recolectar.
+  - `observaciones` → anotaciones importantes.
   - `reportado_por` → persona a cargo.
   - `barrio` → zona donde se recibe el agua.
     
  Carga de Base de Datos con los 100 documentos:
 
+[Uploading uni_ped.comf 2.json…]()
 
 
 

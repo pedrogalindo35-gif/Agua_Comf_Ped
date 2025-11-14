@@ -1,23 +1,47 @@
-Tarea 4 – Almacenamiento y Consultas de Datos en Big Data (MongoDB)
-Autor: Pedro Luis Galindo
-Curso:*Big Data  
-Grupo: 202016911_10  
-Tutor:Jaime Rubiano Llorente  
-Universidad Nacional Abierta y a Distancia – UNAD (2025)  
+**Tarea 4** – Almacenamiento y Consultas de Datos en Big Data (MongoDB)
+<br>**Autor:** Pedro Luis Galindo
+<br>**Curso:** Big Data  
+**Grupo:** 202016911_10  
+**Tutor:** Jaime Rubiano Llorente  
+**Universidad Nacional Abierta y a Distancia – UNAD** 
+<br>**Fecha:** noviembre 2025 
 
-Se utilizó MongoDB Compass como herramienta para crear, cargar y analizar una base de datos denominada `bigdata_db`, con una colección llamada `sensores`.  
-El caso de estudio representa un sistema de **monitoreo ambiental**, donde se registran lecturas de temperatura, humedad y fecha.  
-El objetivo fue comprobar la eficiencia de MongoDB en la gestión de datos generados por dispositivos IoT.
-Fase 1 – Investigación: Tipos de Bases de Datos NoSQL
+**INTRODUCCIÓN**<br>En este ejercicio vamos a desarrollar una base de datos donde haremos consultas y filtraremos información de los datos obtenidos en la recolección de agua de los barrios en diferentes municipios de la Guajira. Utilizaremos MongoDB Compass como herramienta para crear, cargar y analizar una base de datos denominada `com_agua`, con una colección llamada `beneficiarios`.  
 
-| Tipo de Base de Datos | Características | Ventajas | Limitaciones | Casos de Uso |
-|------------------------|-----------------|-----------|---------------|--------------|
-| Clave–Valor | Almacena información en pares clave y valor. | Rápida, ideal para almacenamiento temporal. | No maneja relaciones entre datos. | Redis, Memcached. |
-| Documentos | Usa formatos JSON o BSON. | Flexible y escalable horizontalmente. | Puede ser ineficiente si los documentos son muy grandes. | MongoDB, CouchDB. |
-| Columnar | Organiza datos por columnas. | Excelente para análisis masivo. | No apta para transacciones. | Cassandra, HBase. |
-| Grafos | Representa nodos y conexiones. | Ideal para redes y relaciones. | Compleja de implementar. | Neo4j, OrientDB. |
-Conclusión: 
-Entre los diferentes tipos, MongoDB fue elegido por su estructura flexible, su compatibilidad con datos semiestructurados y su capacidad de integración en proyectos de Big Data.
-Fase 2 – Implementación en MongoDB
- Diseño de la Base de Datos
-- Base: `bigdata_db`  
+Para el caso de uso, he tomado como referencia la falta de agua en La Guajira, ya que en este departamento, muchas personas no tienen acceso al preciado líquido.
+
+Como objetivo, se van a poner en práctica los conceptos estudiados acerca del software MongoDB, con el cual se va a crear una base de datos con 100 elementos, de los cuales vamos a hacer análisis filtrando información mediante códigos.
+
+**Fase 1 – Investigación: Tipos de Bases de Datos NoSQL**
+<br>**Cuadro comparativo NoSQL aplicado al monitoreo de agua en La Guajira**
+
+| Tipo de BD NoSQL | Ventajas | Inconvenientes | Caso de uso en monitoreo de agua |
+|------------------|----------|----------------|----------------------------------|
+| **Clave-valor** | - Muy rápida en lecturas y escrituras<br>- Se puede usar para datos simples | - No soporta consultas complejas<br>- Difícil analizar relaciones | Registro instantáneo de estado de tanques, pozos y tuberías (ej. operativa / inactiva, agua potable). |
+| **Documentos (MongoDB)** | - Flexible y escalable<br>- Permite almacenar datos semiestructurados | - Se debe tener cuidado al momento de ingresar los datos<br>- Requiere índices para eficiencia | Almacenar informes de entrega por barrio: fecha, cantidad de litros, responsable, observaciones. |
+| **Columnas (Cassandra, HBase)** | - Excelente para grandes volúmenes<br>- Optimizada para consultas analíticas | - Su diseño es complejo<br>- Menos intuitiva para datos pequeños | Tomar datos de recolección de agua por municipio, para análisis de tendencias y planificación. |
+| **Grafos (Neo4j)** | - Ideal para relaciones y conexiones<br>- Permite descubrir patrones | - No es eficiente para datos tabulares<br>- Requiere modelado especializado | Distribución de comunidades y rutas de entrega: identificar conexiones entre barrios, puntos de distribución. |
+
+**CONCLUSIÓN** <br>teniendo en cuenta el cuadro comparativo, se ha escogido trabajar con MongoDB porque ofrece la flexibilidad y escalabilidad suficientes para gestionar datos semiestructurados. Teniendo en cuenta la referencia de Miranda et al. (2023) y Sarasa (2016), resulta la opción más adecuada para implementar la base de datos de mi proyecto. 
+
+Este va a ser el diseño que se va a implementar en MongoDB el cual posee las colecciones, los documentos y los campos:
+
+{
+  "_id": {
+    "$oid": "69150764f267ef49570b9568"
+  },
+  "MUNICIPIO": "Riohacha",
+  "fecha_reporte": "2025/10/28",
+  "fuente_agua": "acometida municipal",
+  "estado_fuente": "Operativa",
+  "calidad_agua": "potable",
+  "frecuencia_acceso": "Cada 4 días",
+  "cantidad_promedio_litros": 500,
+  "observaciones": "No alcanzo el agua",
+  "reportado_por": "Consejal",
+  "barrio": "7 de agosto"
+}
+
+
+
+
